@@ -1,8 +1,8 @@
-var once = require("once"),
-    apply = require("apply"),
+var once = require("@nathanfaucett/once"),
+    apply = require("@nathanfaucett/apply"),
     exhaust = require("stream-exhaust"),
-    endOfStream = require("end_of_stream"),
-    isFunction = require("is_function");
+    endOfStream = require("@nathanfaucett/end_of_stream"),
+    isFunction = require("@nathanfaucett/is_function");
 
 
 var endOfStreamOptions = {

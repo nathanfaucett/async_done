@@ -2,7 +2,7 @@ var tape = require("tape"),
     cp = require("child_process"),
     fs = require("fs"),
     through = require("through2"),
-    PromisePolyfill = require("promise_polyfill"),
+    PromisePolyfill = require("@nathanfaucett/promise_polyfill"),
     asyncDone = require("..");
 
 
